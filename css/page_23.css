@@ -1,0 +1,751 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    perspective: 200px;
+ 
+
+}
+
+i:hover{
+    color:#c700cc;
+
+}
+#exampleModal{ 
+  
+    text-align: right; 
+    padding: 10px;
+  
+   
+}
+#exampleModal span{
+    direction: rtl;
+    display: block;
+    font-weight: 600;
+}
+#exampleModal label{
+    padding-right: 20px;
+}
+#exampleModal button{
+    padding: 5px;
+    min-width: 100px;
+    background-color: #8f0093;
+    color: white;
+    outline-width: none;
+    border-radius: 5px;
+    border: none;
+    margin-right: 40% ;
+    margin-top: 20px;
+    cursor: pointer;
+
+}
+
+
+
+/****************************** Up side*******************************/ 
+
+.upSide{
+
+    color: white;
+    background-color: #16092c ;
+    padding-top: 10px;
+}
+
+.upSide .ulist-one ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 13px;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 5px;
+}
+.upSide .ulist-one ul li a{
+color: white;
+text-decoration: none;
+outline-width: 0
+    
+}
+
+.upSide .ulist-two ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 0px;
+    margin-top: 5px;
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    
+}
+
+.upSide .ulist-two ul {
+   text-align: end;
+    color: white;
+    text-decoration: none;
+    float: right;
+}
+
+.upSide .ulist-two ul li a  {
+    text-decoration: none;
+    float: left;
+}
+
+.upSide .ulist-two ul li a span {
+   font-weight: 600;
+    color: white;
+    text-decoration: none;
+}
+
+/****************************** Up side*******************************/ 
+/****************************** Nav Bar*******************************/ 
+.navbar{
+    padding-left: 15px;
+    z-index: 5;
+    padding :0px;
+    padding-left: 20px;
+
+}
+.navbar div.logo img{
+width: 100px;
+float: right;
+}
+@media(max-width:1000px) {
+    .navbar div.logo img{ margin-left: 10px;  
+}}
+.navbar div.logoicon i{
+    font-size: 35px;
+     color:#8f0093;
+     float: right;
+     cursor: pointer;
+
+}
+@media(max-width:1000px) {
+    .navbar div.logoicon{ display: none;}  
+}
+
+
+
+.navbar div.logo img:hover{
+cursor: pointer;
+}
+@media(min-width:520px) {
+    #logoone{ display: none;}  
+}
+@media(max-width:520px) {
+    #logotwo{ display: none;}  
+}
+
+.navbar a{
+    margin-right: 15px;
+    color:#8f0093;
+   
+}
+.navbar .dropdown{
+direction: rtl;
+
+}
+
+
+.navbar .collapse ul li form#login {
+    border: none;
+    direction: rtl;
+    text-align: right;
+}
+.navbar .collapse ul li form#login  select{
+    padding: 10px;
+    border: none;
+    font-size: 16px;
+    font-weight:500 ;
+    outline-width: 0;
+
+}
+
+
+.navbar .collapse ul li form#login  select option {
+   
+    font-size: 16px;
+    font-weight:500 ;
+    direction: rtl;
+    text-align: left;
+}
+
+
+
+.navbar .collapse  ul li.main a span{
+    font-weight: 400;
+    font-size: 20px;
+   color: black;
+}
+
+
+.navbar .collapse ul li  form input {
+    padding: 5px ;
+    color: #8f0093 ;
+    border: 1.5px solid #8f0093;
+    text-align: right;
+    border-radius: 3px;
+    min-width: 80%;
+    box-shadow: 0px 0px 10px rgb(206, 206, 206);
+}
+.navbar .collapse ul li  form input:focus {
+    outline-width: 0
+}
+.navbar .collapse ul li  form i {
+    padding: 10px ;
+    margin-right: 10px;
+
+}
+.navbar  .container a span.Show{
+    font-weight: bolder;
+    font-size: 20px;
+    color: red;
+    text-decoration: none;
+    line-height: 2;
+}
+.navbar  .container a{  text-decoration: none;   } 
+.navbar  .container .collapse a span.Show{
+    font-weight: bolder;
+    font-size: 20px;
+    color: red;
+    text-decoration: none;
+}
+ 
+.navbar  .container .collapse a{  text-decoration: none;   } 
+
+.navbar button:focus{
+outline-width: 0;
+float: left;
+}
+@media(max-width:520px) {
+    #heart{ 
+        display: none;
+        margin: 10px;
+      
+       
+    }
+   
+    }
+
+
+    .navbar  .container .collapse {
+        text-align: center;
+     }
+     
+#searchInput{
+       
+        min-width: 450px;
+      
+    }
+    #ssss{
+        font-weight: 900;
+        font-size: 20px;
+        color: red;
+    }
+    .navbar  .container .collapse .dropdown a{
+font-weight: 700;
+font-size: 15px;
+    }
+
+    @media(max-width:520px) {
+        .navbar  .container .collapse .dropdown-menu a {text-align: right;} }
+
+        @media(min-width:520px) {
+            .navbar  .container .collapse .dropdown-menu a  {z-index: 10;} }
+
+    @media(min-width:520px) {
+         #search{ display: none;}
+        
+        }
+        #ShowOne{
+            line-height: 50px;
+        }
+@media(min-width:520px) {
+    #ShowOne{ display: none;}
+    
+    }
+
+    @media(max-width:520px) {
+        #ShowTwo{ display: none;}
+        
+        }
+
+    @media(max-width:520px) {
+       .navbar .container{ margin-right:0px;}
+        
+        }
+        @media(max-width:520px) {
+            .navbar a{ margin-right:15px;}
+             
+             }
+/****************************** Nav Bar*******************************/ 
+#msform {
+    text-align: center;
+
+    margin-top: 30px;
+    margin-left: 50px;
+   
+}
+
+/*progressbar*/
+#progressbar {
+  
+    overflow: hidden;
+    /*CSS counters to number the steps*/
+    counter-reset: step;
+    direction: rtl;
+   
+}
+
+#progressbar li {
+    list-style-type: none;
+    color: #7f7f7f;
+    text-transform: uppercase;
+    font-size: 15px;
+    width: 25%;
+    float: left;
+    position: relative;
+    direction: rtl;
+}
+
+#progressbar li:before {
+    content: "✓";
+    font-size: 25px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    display: block;
+
+    color: rgb(255, 255, 255);
+    background: #7f7f7f;
+    border-radius: 25px;
+    margin: 0 auto 10px auto;
+  
+
+}
+
+/*progressbar connectors*/
+#progressbar li:after {
+    content: ' ';
+    width: 75%;
+    height: 3px;
+    background: rgb(177, 175, 175);
+    position: absolute;
+    left: -50%;
+    top: 18px;
+    z-index: -1; /*put it behind the numbers*/
+
+    margin-left: 20px;
+}
+
+#progressbar li:first-child:after {
+    /*connector not needed before the first step*/
+    content: none;
+}
+
+/*marking active/completed steps green*/
+/*The number of the step and the connector before it = green*/
+#progressbar li.active:before, #progressbar li.active:after {
+    background: #40c471;
+   
+    color: white;
+}
+
+
+.content{
+    background-color: #efefef ;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 0;
+}
+.content .container {
+ padding: 1px;  
+max-width:60%;
+}
+
+@media(max-width:675px) {
+    .content .container{ max-width: 100%;}
+     
+     }
+     
+.content .container .row{
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+}
+.content .container .headOne {
+ font-size: 15px;
+ font-weight: 600;
+ padding-right: 50px;
+
+}
+.content .container .headOne span.date{
+    font-size: 12px;
+    font-weight: 600;
+    color: rgb(172, 172, 172);
+    margin-right: auto;
+    padding-left: 50px;
+ 
+ 
+
+   }
+
+
+
+  .content .container .row .utow .card{
+
+float: right;
+min-width: 100%;
+direction: rtl;
+   }
+
+   .content .container .row .utow .card .row {
+text-align: right;
+
+padding: 0;
+padding-top: 5px;
+
+
+       }
+       #uuu{
+           cursor: pointer;
+       }
+
+       .content .container .row .utow .card .row div.imag img {
+    
+      border-radius: 10px;
+      width: 90%;
+height: 150px;
+      -ms-height: 40%;
+      -webkit-height: 40%;
+      -moz-height: 40%;
+
+      
+      float: right; 
+      margin-top: 10px;
+      cursor: pointer;
+}
+@media(max-width:520px) {
+    .content .container .row .utow .card .row div.imag img{
+      
+        width: 100%;
+        height:80%;
+
+     
+     }}
+
+.content .container .row .utow .card .row .card-body div.con{
+    flex: none;
+    max-width: none;
+  margin-right: -10px;
+    margin-top: -15px;
+}
+.content .container .row .utow .card .row .card-body div.con .price{
+margin-top: 20px;
+}
+@media(min-width:520px) {
+    .content .container .row .utow .card .row .card-body div.con .price{
+
+        margin-top: 70px;
+    }}
+@media(max-width:520px) {
+    .content .container .row .utow .card .row .card-body div.con .price{
+
+       align-items: center;
+    }}
+.content .container .row .utow .card .row .card-body div.con .price p{
+    flex: none;
+    max-width: none;
+    margin-top: 40px;
+    font-size: 15px;
+}
+.content .container .row .utow .card .row .card-body div.con .price p.card-text{
+    margin: 5px;
+    font-size: 12px;
+}
+             
+ .content .container .row .utow .card .row .card-body div.con p {
+
+font-weight: 500;
+font-size: 20px;
+padding-left: 0;
+ }
+   
+.content .container .row .utow .card .row .card-body p {
+
+    font-weight: 500;
+    font-size: 13px;
+
+    }
+
+    .content .container .row .utow .card .row .card-body p.disC{
+
+        font-weight: 500;
+        font-size: 13px;
+        text-decoration: line-through;
+        display: inline-block;
+        color: #c5c5c5;
+        
+    
+        }
+        .content .container .row .utow .card .row .card-body span.disC1{
+
+            font-weight: 700;
+            font-size: 13px;
+           
+            text-decoration: none;
+            margin-right: 5%;
+
+          
+        
+            }
+    .content .container .row .utow .card .row .card-body p span {
+        margin-right: 5%;
+        font-weight: 500;
+        font-size: 15px;
+        color: red;
+        }
+
+        .content .container .row .utow .card .row .card-body p i {
+        
+            color: #8f0093;
+            margin-right: 5%;
+            margin-left: 5%;
+            cursor: pointer;
+
+            }
+             
+            .content .container .row  .FCardInf {
+           
+                text-align: right;
+                padding-right: 20px;
+                width:100%;
+                padding-left: 20px;
+                 }
+                 .content .container .row  .FCardInf .Sal_shope{
+                     direction: rtl;
+                     margin-right: 0px;
+                 }
+                 .content .container .row  .FCardInf .saler {
+                     display: inline-block;
+                     font-size: 17px;
+                     font-weight: 700;
+                     margin: 10px 0px 10px 10px;
+                    text-align: right;
+                  
+                 }
+                 .content .container .row  .FCardInf .shope{
+                     display: inline;
+                     text-decoration: none;
+                    
+                
+                 }
+                 .content .container .row  .FCardInf .total {     
+                
+                    direction: rtl;
+                    margin-top:20px ;
+                
+                 }  
+                 .content .container .row  .FCardInf .total ul {     
+                list-style: none;
+                max-width: 60%;
+                 } 
+                 @media(max-width:520px) {
+                    .content .container .row  .FCardInf .total ul {
+                
+                        max-width: 100%;
+                    }}
+                 .content .container .row  .FCardInf .total ul li {
+                     padding: 7px;
+                     box-shadow: 0px 1px 2px rgb(236, 236, 236);
+                 } 
+                 .content .container .row  .FCardInf .total ul li span.Tprice {     
+                float: left;
+                font-weight: bolder;
+                font-size: 18px;
+            
+                direction: ltr;
+                  }
+                  .content .container .row  .FCardInf .total ul li span.TTotal {     
+                   box-shadow: none;
+                   font-weight: bolder;
+                   font-size: 18px;
+                  
+                      }
+                      .content .container .row  .FCardInf .total ul li.end{
+                          box-shadow: none;
+                      }
+                 .content .container .row  .FCardInf .total ul li span {     
+                  color: black;
+                  font-weight: 600;
+                  font-size: 12px;
+                }
+                .content .container .row  .FCardInf .total ul li span label.disCo {     
+                    color: red;
+                    font-weight: 500;
+                   margin-right: 10%;
+                   text-decoration: line-through;
+                  }
+                  .content .container .row  .FCardInf .total ul li img{
+                    width: 7%;
+                   margin-right: 20%;
+                   cursor: pointer;
+                  
+                }
+                .content .container .row  .FCardInf .total ul li span.price {     
+                 float: left;
+                 direction: ltr;
+                 } 
+ .content .container .row .content2 .locationData {
+     text-align: right;
+     direction: rtl;
+     max-width: 90%;
+     float: right;
+     padding: 0;
+ }
+ .content .container .row .content2 .locationData .row{
+     padding: 0;
+     font-weight: 300;
+     font-size: 17px;
+ }
+ .content .container .row .content2 .locationData .row .one{
+
+ font-weight: 500;
+ font-size: 13px;
+}
+ .content .container .row .content2 .locationData div.head p{
+
+font-weight: 800;
+font-size: 16px;
+ }
+ .content .container .row .content2 {
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
+
+
+.content .container .row .utow .FCardInf p{
+           
+font-weight: 700;
+font-size: 18px;
+float: right;
+margin-left: 5%;
+
+  }
+
+  .content .container .row .utow .FCardInf span  {
+   color: blue;
+  
+
+ 
+
+                    }
+.content .container .row .utow .FCardInf span i {
+           
+margin-right: 20px;
+color: black;
+
+margin-top:20px;
+float: left;
+margin-bottom:20px;
+
+ }
+
+  .content .container button:hover{
+background-color: #8f0093;
+color: white;  
+}
+
+            
+  @media(max-width:767px) {
+  .content .container .row .uone { order: 2;}
+                    
+         }
+
+         @media(max-width:767px) {
+            .content .container .row .uotow { order: 1;}
+                              
+                   }
+            
+
+
+/****************************** Fooooter*******************************/ 
+
+
+.footer{
+    width: 100%;
+    background-color: #474747;
+    font-size: 30px;
+    padding: 30px;
+    color: white;
+    text-align: center;   
+    position: relative;
+}
+
+@media(max-width:520px) {
+    .footer{ 
+        width: 100%;
+        background-color: #474747;
+        font-size: 17px;
+        padding: 30px;
+        color: white;
+        text-align: center;   
+        position: relative;  
+    }
+     
+     }
+
+.footer .container .row .uone .con1 a{
+color: white;
+margin-right: 5px;
+padding: 10px;
+border-radius:100%;
+
+}
+.footer .container .row .uone .con1 a:hover{
+    color:  #8f0093;
+  
+    }
+#icon{
+    padding-top: 20px;
+}
+
+    .footer .container .row .utow .con1 a{
+        color: white;
+        margin-right: 5px;
+        padding: 10px;
+        border-radius:100%;
+      
+        }
+        .footer .container .row .utow .con1 a:hover{
+            color:  #8f0093;
+            margin-right: 5px;
+            padding: 10px;
+            border-radius:100%;
+           
+            }
+        
+
+
+
+.footer .container .row .uone span{
+    margin-bottom: 10px;
+    color: white;
+    display: block;
+    margin-bottom: 20px;
+}
+.footer .container .row .utow span{
+    margin-bottom: 10px;
+    color: white;
+    display: block;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+/****************************** Fooooter*******************************/ 
+
